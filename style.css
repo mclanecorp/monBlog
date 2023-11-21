@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #272727;
+}
+.title_login {
+  background-color: red;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 4px solid #6eeb83;
+  background: url(/images/pawel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transform: rotate(-90deg);
+}
+.container_form_login {
+  background-color: #272727;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome {
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box_welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 600px;
+}
+.text_welcome {
+  color: #a5a5a5;
+  font-family: Lexend Deca;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+input {
+  width: 600px;
+  height: 60px;
+  flex-shrink: 0;
+  padding-left: 30px;
+  border: 1px solid #6eeb83;
+  background: #272727;
+  outline: none;
+  caret-color: #a5a5a5ed;
+}
+input::placeholder {
+  color: #a5a5a5ed;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+.container_btn {
+  display: flex;
+  width: 600px;
+}
+
+.btn_first {
+  background: #6eeb83;
+  padding: 18px 55px;
+  color: #000;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 163px;
+  cursor: pointer;
+}
+.btn_first:hover {
+  transform: scale(1.1);
+}
+.text_white {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_green {
+  color: #6eeb83;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav {
+  background-color: #272727;
+  width: 100%;
+  min-height: 100vh;
+  border-right: 4px solid #6eeb83;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 14px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.logo {
+  text-align: center;
+  padding: 23px 25px;
+  background-color: #6eeb83;
+  border-radius: 50%;
+  color: #000;
+  font-family: Lexend Deca;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+}
+.text_menu {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container_general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 53px;
+}
+.day {
+  color: #fff;
+  text-align: right;
+  font-family: Lexend Deca;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.container_date_name {
+  text-align: right;
+}
+.container_articles {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+  margin-right: 17px;
+}
+.name {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.title_article {
+  color: #6eeb83;
+  font-family: DM Serif Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+.article {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+  margin-bottom: 20px;
+}
+.read_more {
+  color: #6eeb83;
+  font-family: Lexend Deca;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.hastag {
+  border-radius: 100px;
+  border: 1px solid #6eeb83;
+  background: rgba(110, 235, 131, 0);
+  color: #6eeb83;
+  padding: 7px 18px;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
